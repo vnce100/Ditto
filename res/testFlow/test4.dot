@@ -1,0 +1,17 @@
+digraph G {
+	0[style=filled fillcolor=grey100];
+	0->2[label ="0/2"] ;
+	0->4[label ="0/10"] ;
+	1[style=filled fillcolor=grey50];
+	1->2[label ="0/9"] ;
+	1->3[label ="0/7"] ;
+	1->4[label ="0/1"] ;
+	1->5[label ="0/1"] ;
+	2[style=filled fillcolor=grey100];
+	2->3[label ="0/8"] ;
+	3[style=filled fillcolor=grey100];
+	3->4[label ="0/2"] ;
+	4[style=filled fillcolor=grey100];
+	4->3[label ="0/5"] ;
+	5[style=filled fillcolor=grey50];
+}

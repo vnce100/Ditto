@@ -1,0 +1,24 @@
+digraph G {
+	0[style=filled fillcolor=grey100];
+	0->4[label ="2/2"] ;
+	0->5[label ="9/9"] ;
+	1[style=filled fillcolor=grey50];
+	1->0[label ="0/10"] ;
+	2[style=filled fillcolor=grey50];
+	2->0[label ="0/2"] ;
+	2->3[label ="0/7"] ;
+	3[style=filled fillcolor=grey50];
+	3->0[label ="0/9"] ;
+	3->1[label ="0/4"] ;
+	3->2[label ="0/9"] ;
+	3->5[label ="0/9"] ;
+	4[style=filled fillcolor=grey50];
+	4->1[label ="0/6"] ;
+	4->2[label ="0/5"] ;
+	4->3[label ="0/3"] ;
+	4->5[label ="0/6"] ;
+	5[style=filled fillcolor=grey50];
+	5->2[label ="0/9"] ;
+	5->3[label ="6/6"] ;
+	5->4[label ="3/4"] ;
+}
